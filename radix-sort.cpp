@@ -3,7 +3,7 @@
 #include <time.h>
 
 #include "generic.h"
-#include "radix_sort.h"
+#include "radix-sort.h"
 
 int main()
 {
