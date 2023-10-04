@@ -1,10 +1,9 @@
-* RADIX SORT 
+/*******************************************************************************
+ * RADIX SORT 
  *
  * Features: 
  *  1. sort unsigned 32-bit array in O(n) time
  *  2. subset sorted with couting sort.
- *
- * http://en.wikipedia.org/wiki/Radix_sort
  *
  ******************************************************************************/
 
