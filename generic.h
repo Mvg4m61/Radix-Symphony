@@ -5,8 +5,8 @@
 #include <assert.h>
 #include <stdlib.h>
 
-#include "utils/gb18030.h"
-#include "utils/byteorder.h"
+#include "gb18030.h"
+#include "byteorder.h"
 
 
 #define Max(a, b) ( (a > b) ? a : b )
