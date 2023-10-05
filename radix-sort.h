@@ -14,8 +14,9 @@
 #include <string.h>
 #include <stdlib.h>
 #include <assert.h>
-#include <generic.h>
 #include <memory>
+
+#include "generic.h"
 
 namespace alg {
 	/**
