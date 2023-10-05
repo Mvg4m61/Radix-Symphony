@@ -14,7 +14,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: configure
-      run: ./Makefile
+      run: chmod +x ./Makefile
     - name: make
       run: make
     - name: make check
