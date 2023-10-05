@@ -14,7 +14,7 @@ PROGRAMS = radix-sort \
 all: $(PROGRAMS)
 
 %: radix-sort.cpp $(DEPS)
-	$(CPP) $(CFLAGS) -o $@ $< $(INCLUDEDIR) $(LIBS)
+	$(CPP) $(CFLAGS) -o $@ $< $(LIBS)
 
 clean:
 	rm -rf $(PROGRAMS) *.dSYM *.o
