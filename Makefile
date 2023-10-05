@@ -15,8 +15,8 @@ PROGRAMS = radix-sort \
 
 all: $(PROGRAMS)
 
-radix-sort: $(SRCDIR)/radix-sort.cpp
-	$(CPP) $(CFLAGS) -o $@ $^ $(INCLUDEDIR) $(LIBS)
+%: $(SRCDIR)/%.cpp $(DEPS)
+	$(CPP) $(CFLAGS) -o $@ $< $(INCLUDEDIR) $(LIBS)
 
 clean:
 	rm -rf $(PROGRAMS) *.dSYM *.o
