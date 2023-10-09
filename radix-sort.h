@@ -16,7 +16,7 @@
 #include <assert.h>
 #include <memory>
 
-#include "generic.h"
+#include <generic.h>
 
 namespace alg {
 	/**
